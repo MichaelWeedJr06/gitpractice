@@ -23,3 +23,9 @@ Note: use ctrl+shift+v to preview files in VS Code
    Shows the current state of the working directory and staging area.
 8. `git add <file>`
    Stages changes in a file for the next commit. (note you can `git add *` to stage all files in the working directory, while `git add .` does the whole repository)
+9. `git commit -m "message"`
+   Saves the staged changes with a commit message.
+10. **Add a remote location for a repo**
+    `git remote add origin <link to repo>`
+11. `git push`
+    Sends local commits to the remote repository.
